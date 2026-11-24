@@ -1,0 +1,15 @@
+{
+  "name": "Prépositions – Französisch lernen",
+  "short_name": "Prépositions",
+  "description": "Französische Präpositionen in fünf Stufen trainieren – mit Wiederholungsplan und Offlinefunktion.",
+  "lang": "de-DE",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ed",
+  "theme_color": "#f6f4ed",
+  "icons": [
+    {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
