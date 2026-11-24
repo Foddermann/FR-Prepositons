@@ -2,7 +2,7 @@
 'use strict';
 const VERSION='prep-cache-v1.0.0';
 const BASE=new URL('./',self.location.href);
-const ASSETS=['./','./index.html','./style.css','./data.js','./app.js','./manifest.webmanifest','./icons/apple-touch-icon.png','./icons/icon-192.png','./icons/icon-512.png'].map(p=>new URL(p,BASE).href);
+const ASSETS=['./','./index.html','./style.css','./data.js','./app.js','./manifest.webmanifest','./apple-touch-icon.png','./icons/icon-192.png','./icons/icon-512.png'].map(p=>new URL(p,BASE).href);
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));
 });
